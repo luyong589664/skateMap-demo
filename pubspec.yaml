@@ -19,13 +19,15 @@ dependencies:
   dio: ^5.4.0
   # 腾讯云 云开发
   cloudbase_flutter: ^1.0.3
-  # 高德地图 flutter_line_sdk:
-  amap_flutter_location: ^3.0.0
-  amap_flutter_map: ^3.0.0
-
+  # 地图（基于 OpenStreetMap，无需 API Key）
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  # 定位
+  geolocator: ^13.0.2
+  # 点击 Marker 打开外部地图软件导航
+  url_launcher: ^6.3.1
   #权限
   permission_handler: ^11.0.0
-  cupertino_icons: ^1.0.8
 
 dev_dependencies:
   flutter_test:
