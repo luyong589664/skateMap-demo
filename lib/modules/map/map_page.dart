@@ -35,7 +35,7 @@ class MapPage extends GetView<MapController> {
           ),
           // 定位按钮
           Positioned(
-            right: 16,
+            right: 18,
             bottom: 48,
             child: Obx(
               () => FloatingActionButton(
