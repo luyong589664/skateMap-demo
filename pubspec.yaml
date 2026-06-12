@@ -19,9 +19,10 @@ dependencies:
   dio: ^5.4.0
   # 腾讯云 云开发
   cloudbase_flutter: ^1.0.3
-  # 地图（基于 OpenStreetMap，无需 API Key）
-  flutter_map: ^7.0.2
-  latlong2: ^0.9.1
+  # 高德地图 SDK（GouMiaoMu 社区版，适配 Flutter 3.35+）
+  gmm_amap_flutter_map: ^3.1.4
+  gmm_amap_flutter_location: ^3.1.4
+  gmm_amap_flutter_base: ^3.1.4
   # 定位
   geolocator: ^13.0.2
   # 点击 Marker 打开外部地图软件导航

@@ -42,3 +42,11 @@ android {
 flutter {
     source = "../.."
 }
+
+// gmm_amap_flutter_map 插件用的是 compileOnly，APK 里不会带高德原生 SDK，这里手动加上
+repositories {
+    maven { url = uri("https://developer.amap.com/repo/maven") }
+}
+dependencies {
+    implementation("com.amap.api:3dmap:8.1.0")
+}
